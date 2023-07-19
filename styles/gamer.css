@@ -6,17 +6,17 @@
 /* Shared Style */
 .section-title {
   color: #0b0223;
-  font-size: 3rem;
+  font-size: 48px;
   font-weight: 700;
 }
 .section-details {
   color: #534c64;
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 500;
 }
 .section-description {
   color: #534c64;
-  font-size: 1.12rem;
+  font-size: 18px;
   font-weight: 400;
 }
 .title-style {
@@ -28,6 +28,10 @@
 .btn-primary {
   border-radius: 48px;
   padding: 21px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
 }
 .btn-bgc-pink {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -60,7 +64,7 @@ nav {
 }
 .nav-title {
   color: #0b0223;
-  font-size: 2.8rem;
+  font-size: 45px;
   font-weight: 700;
 }
 .menu-container {
@@ -86,3 +90,25 @@ nav {
 .follow-us a {
   font-size: 24px;
 }
+/* banner style */
+.banner-title-style {
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+  margin-bottom: 30px;
+  border: 2px solid red;
+}
+.banner-container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+}
+.banner-content {
+  width: 50%;
+  background-image: url("/images/Group14.png;);
+}
+
