@@ -18,6 +18,8 @@
   color: #534c64;
   font-size: 18px;
   font-weight: 400;
+  margin-top: 17px;
+  margin-bottom: 17px;
 }
 .title-style {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -32,6 +34,9 @@
   font-weight: 600;
   color: #fff;
   border: none;
+  margin-top: 40px;
+  /* margin-left: 12px; */
+  margin-right: 20px;
 }
 .btn-bgc-pink {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -100,7 +105,7 @@ nav {
   -webkit-text-fill-color: transparent;
   margin-top: 0;
   margin-bottom: 30px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .banner-container {
   display: flex;
@@ -109,6 +114,12 @@ nav {
 }
 .banner-content {
   width: 50%;
-  background-image: url("/images/Group14.png;);
+  background-image: url('../images/Group14.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.banner-content h2 {
+  margin-top: 140px;
+  margin-bottom: 0px;
+}
