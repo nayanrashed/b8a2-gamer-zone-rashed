@@ -12,28 +12,41 @@
     flex-direction: column;
     gap: 35px;
   }
+  /* banner section */
   .banner-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .banner-content {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-image-container{
+    width: 100%;
+  }
+  .banner-image{
+    max-width: 100%;
+  }
+  /* gamer section */
+  .gamer-section-container{
+    flex-direction: column;
+
+  }
+  .gamer-description{
+    text-align: center;
+  }
+  /* online games section */
+  .online-games-container{
+    width: 100%;
+  }
+  .online-games-card-container{
     flex-direction: column;
   }
-  .banner-content,
-  .banner-image-container {
-    width: 100%;
-    margin-bottom: 20px;
+  .online-game-card{
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
-  .nav-container {
-    width: 100%;
-  }
-  .logo-container {
-    width: 40%;
-  }
-  .menu-container {
-    justify-content: space-between;
-    width: 60%;
-  }
-  .menu-container > a {
-    margin-right: 5px;
-  }
+  
 }
