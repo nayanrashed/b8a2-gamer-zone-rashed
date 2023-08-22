@@ -167,9 +167,6 @@ nav {
   text-align: center;
   margin-top: 60px;
 }
-.online-game-card{
-  width: 340px;
-}
 .online-games-card-container{
   display: flex;
   flex-wrap: wrap;
@@ -177,6 +174,40 @@ nav {
   margin-top: 30px;
   justify-content: center;
 }
+.online-game-card{
+  width: 340px;
+}
+/* Hover Effect */
+.image-box{  
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.image-box img{
+  width: 100%;
+  height: auto;
+}
+.hover-content{
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  border: solid red 3px;
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 170px;  
+  transition: all 0.5s;
+}
+.image-box:hover .hover-content{
+  bottom:0;
+  /* transition-delay: 0.5s;   */
+}
+
+
+
 /* play instantly section */
 .play-instantly-container{
   max-width: 1440px;
