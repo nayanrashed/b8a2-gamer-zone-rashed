@@ -1,4 +1,6 @@
 @media screen and (max-width: 576px) {
+  /* common styles for mobile view */
+
   .nav-container {
     flex-direction: column;
   }
@@ -21,43 +23,103 @@
     width: 100%;
     text-align: center;
   }
-  .banner-image-container{
+  .banner-image-container {
     width: 100%;
   }
-  .banner-image{
+  .banner-image {
     max-width: 100%;
   }
   /* gamer section */
-  .gamer-section-container{
+  .gamer-section-container {
     flex-direction: column;
-
   }
-  .gamer-description{
+  .gamer-description {
     text-align: center;
   }
   /* online games section */
-  .online-games-container{
-    width: 100%;
+  .online-games-container {
+    width: 80%;
   }
-  .online-games-card-container{
+  .online-games-card-container {
     flex-direction: column;
   }
-  .online-game-card{
+  .online-game-card {
     margin: 0 auto;
   }
   /* play instantly */
-  .play-instantly-container{
+  .play-instantly-container {
     flex-direction: column;
+    margin-top: 50px;
   }
-  .play-instantly-description{
-    width: 100%;
+  .instantly-image-container {
+    width: 60%;
   }
-  .instantly-image-container{
-    width: 100%;
+  .play-instantly-description {
+    width: 80%;
   }
-
+  .instantly-bottom-image {
+    width: 50%;
+    bottom: -30px;
+    left: -50px;
+  }
+  .play-instantly-text {
+    text-align: center;
+    padding: 0;
+  }
+  /* Play online */
+  .play-online-container {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .online-image-container {
+    width: 60%;
+  }
+  .online-bottom-image {
+    width: 50%;
+    bottom: -30px;
+    right: -45px;
+  }
+  .play-online-text {
+    text-align: center;
+    padding: 0;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
   
+  .play-instantly-text {
+    text-align: left;
+    padding: 0;
+  }
+  .instantly-image-container {
+    width: 50%;
+  }
+  .instantly-bottom-image {
+    width: 30%;
+    bottom: -30px;
+    left: -50px;
+  }
+  .play-instantly-container{
+    margin-top: 50px;
+  }
+
+  .play-online-text {
+    text-align: right;
+    padding: 0;
+  }
+  .online-image-container {
+    width: 50%;
+  }
+  .online-bottom-image {
+    width: 30%;
+    bottom: -30px;
+    right: -45px;
+  }
+  .small-title{
+    font-size: 24px;
+  font-weight: 700;
+  }
+  .play-online-container{
+    margin-top: 50px;
+  }
 }
