@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
 * {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
 }
 /* Shared Style */
@@ -9,7 +9,7 @@
   font-size: 48px;
   font-weight: 700;
 }
-.gamer-title-style{
+.gamer-title-style {
   font-size: 45px;
   font-weight: 700;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -30,8 +30,8 @@
   margin-bottom: 15px;
   line-height: 30px;
 }
-.section-text{
-  color: #534C64;
+.section-text {
+  color: #534c64;
   font-size: 24px;
   font-weight: 500;
 }
@@ -49,7 +49,6 @@
   color: #fff;
   border: none;
   margin-top: 20px;
-  
 }
 .btn-bgc-pink {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
@@ -127,15 +126,15 @@ nav {
 }
 .banner-content {
   width: 50%;
-  background-image: url('../images/Group14.png');
+  background-image: url("../images/Group14.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
-.banner-image-container{
+.banner-image-container {
   width: 50%;
 }
-.banner-image{
+.banner-image {
   width: 100%;
 }
 .banner-content h2 {
@@ -143,52 +142,52 @@ nav {
   margin-bottom: 0px;
 }
 /* gamer section style */
-.gamer-section-container{
+.gamer-section-container {
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
-.image-container{
+.image-container {
   width: 50%;
 }
-.gamer-image{
+.gamer-image {
   width: 100%;
 }
 
-.gamer-description{
+.gamer-description {
   text-align: right;
   width: 50%;
 }
 /* online game Style */
-.online-games-container{
+.online-games-container {
   max-width: 1400px;
   margin: 0 auto;
   text-align: center;
   margin-top: 60px;
 }
-.online-games-card-container{
+.online-games-card-container {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 30px;
   justify-content: center;
 }
-.online-game-card{
+.online-game-card {
   width: 340px;
 }
 /* Hover Effect */
-.image-box{  
+.image-box {
   border-radius: 20px;
   position: relative;
   overflow: hidden;
 }
-.image-box img{
+.image-box img {
   width: 100%;
   height: auto;
 }
-.hover-content{
-  background: rgba(0,0,0,0.6);
+.hover-content {
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   border: solid red 3px;
   position: absolute;
@@ -198,71 +197,107 @@ nav {
   height: 100%;
   border-radius: 20px;
   text-align: center;
-  padding-top: 170px;  
+  padding-top: 170px;
   transition: all 0.5s;
 }
-.image-box:hover .hover-content{
-  bottom:0;
+.image-box:hover .hover-content {
+  bottom: 0;
   /* transition-delay: 0.5s;   */
 }
 
-
-
 /* play instantly section */
-.play-instantly-container{
+.play-instantly-container {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   margin-top: 100px;
-   
 }
-.instantly-image-container{
+.instantly-image-container {
   position: relative;
   width: 50%;
   border: solid red 2px;
 }
-.instantly-main-image{
+.instantly-main-image {
   width: 100%;
 }
-.instantly-bottom-image{
+.instantly-bottom-image {
   position: absolute;
   bottom: -60px;
-  left: -135px;  
+  left: -135px;
 }
 
-.play-instantly-description{
+.play-instantly-description {
   border: solid green 2px;
   width: 50%;
 }
-.play-instantly-text{
+.play-instantly-text {
   text-align: right;
   padding-right: 200px;
 }
 
 /* PLay Games Online */
-.play-online-container{
+.play-online-container {
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   margin-top: 150px;
 }
-.play-online-text{
+.play-online-text {
   text-align: left;
   padding-left: 200px;
 }
-.online-image-container{
+.online-image-container {
   position: relative;
   width: 50%;
   border: solid red 2px;
 }
-.online-main-image{
+.online-main-image {
   width: 100%;
 }
-.online-bottom-image{
+.online-bottom-image {
   position: absolute;
   bottom: -80px;
-  right: -120px;  
+  right: -120px;
 }
 
+/* Career Section Style */
+.career-section {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  margin-top: 200px;
+}
+.career-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.career-text-container {
+  width: 50%;
+  margin-top: 100px;
+}
+.career-text-container h3 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.career-text-container > p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.job-description {
+  display: flex;
+  justify-content: space-between;
+}
+.job-details {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.career-pic-container {
+  width: 50%;
+}
