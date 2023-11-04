@@ -146,4 +146,27 @@
   .play-online-container{
     margin-top: 50px;
   }
+  /* Career */
+  .career-container {
+    flex-direction: column;
+    padding: 5px;
+    
+  }
+  .career-text-container{
+    width: 100%;
+  }
+  .career-pic-container{
+    width: 100%;
+  }
+  .career-pic-container img{
+    width: 100%;
+  }
+  .job-details {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .career-section{
+    margin-top: 100px;
+  }
 }
