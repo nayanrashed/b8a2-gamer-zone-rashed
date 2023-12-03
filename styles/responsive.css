@@ -87,15 +87,14 @@
   .career-container {
     flex-direction: column;
     padding: 5px;
-    
   }
-  .career-text-container{
+  .career-text-container {
     width: 100%;
   }
-  .career-pic-container{
+  .career-pic-container {
     width: 100%;
   }
-  .career-pic-container img{
+  .career-pic-container img {
     width: 100%;
   }
   .job-details {
@@ -103,14 +102,70 @@
     font-size: 18px;
     font-weight: 400;
   }
-  .career-section{
+  .career-section {
     margin-top: 100px;
   }
-  
+
+  /* All Games Container */
+  .all-games-container {
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    margin: 0 auto;
+    border: solid red 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .games-item {
+    display: flex;
+    border-radius: 24px;
+    height: 40px;
+    align-items: center;
+    margin: auto;
+  }
+  .games-item img {
+    height: 35px;
+    width: 35px;
+    border-radius: 40px;
+    margin-left: 5px;
+  }
+  .games-item p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* footer section */
+
+  .footer-link-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-bottom: 28px;
+    margin-top: 60px;
+    /* border: solid blue 2px; */
+  }
+  .footer-link-container a {
+    padding: auto;
+    margin-right: 24px;
+    padding-bottom: 30px;
+  }
+  .others-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 25px;
+    margin-bottom: 28px;
+    margin-top: 60px;
+    /* border: solid red 2px; */
+  }
+  .copy-right {
+    padding: auto;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
-  
   .play-instantly-text {
     text-align: left;
     padding: 0;
@@ -123,7 +178,7 @@
     bottom: -30px;
     left: -50px;
   }
-  .play-instantly-container{
+  .play-instantly-container {
     margin-top: 50px;
   }
 
@@ -139,26 +194,25 @@
     bottom: -30px;
     right: -45px;
   }
-  .small-title{
+  .small-title {
     font-size: 24px;
-  font-weight: 700;
+    font-weight: 700;
   }
-  .play-online-container{
+  .play-online-container {
     margin-top: 50px;
   }
   /* Career */
   .career-container {
     flex-direction: column;
-    padding: 5px;
-    
+    padding: 35px;
   }
-  .career-text-container{
+  .career-text-container {
     width: 100%;
   }
-  .career-pic-container{
+  .career-pic-container {
     width: 100%;
   }
-  .career-pic-container img{
+  .career-pic-container img {
     width: 100%;
   }
   .job-details {
@@ -166,7 +220,11 @@
     font-size: 18px;
     font-weight: 400;
   }
-  .career-section{
+  .career-section {
     margin-top: 100px;
   }
+}
+.footer-link-container a {
+  margin: 0 auto;
+  padding-right: 20px;
 }

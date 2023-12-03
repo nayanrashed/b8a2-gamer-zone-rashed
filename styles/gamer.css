@@ -63,7 +63,7 @@ nav {
   width: 100%;
 }
 .nav-container {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   align-items: center;
   max-width: 1400px;
@@ -216,7 +216,7 @@ nav {
 .instantly-image-container {
   position: relative;
   width: 50%;
-  border: solid red 2px;
+  /* border: solid red 2px; */
 }
 .instantly-main-image {
   width: 100%;
@@ -228,7 +228,7 @@ nav {
 }
 
 .play-instantly-description {
-  border: solid green 2px;
+  /* border: solid green 2px; */
   width: 50%;
 }
 .play-instantly-text {
@@ -251,7 +251,7 @@ nav {
 .online-image-container {
   position: relative;
   width: 50%;
-  border: solid red 2px;
+  /* border: solid red 2px; */
 }
 .online-main-image {
   width: 100%;
@@ -315,13 +315,11 @@ nav {
   margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
-}
-.all-games-container {
   display: flex;
   flex-wrap: wrap;
-  /* display: grid;
-  grid-template-columns: auto auto auto auto; */
 }
+
+
 .games-item {
   display: flex;
   border-radius: 48px;
@@ -330,7 +328,7 @@ nav {
   margin: auto;
 }
 .games-item img {
-  border: solid green 2px;
+  /* border: solid green 2px; */
   border-radius: 60px;
   margin-left: 10px;
 }
@@ -365,10 +363,15 @@ nav {
   /* border: solid red 2px; */
   color: white;
   text-decoration: none;
-  margin: auto;
+  margin-right: 64px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .footer-link-container {
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-bottom: 56px;
 }
 .footer-container {
   display: flex;
@@ -381,6 +384,41 @@ nav {
   justify-content: center;
   margin: auto;
 }
+
+.social-link a {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  padding-left: 40px;
+}
+.others-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  margin-top: 60px;
+  font-size: 16px;
+
+  font-weight: 500;
+}
+.others-container a {
+  
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  padding-bottom: 30px;
+}
+
+.copy-right {
+  /* border: solid red 1px; */
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  font-size: 16px;
+
+  font-weight: 500;
+}
+
 /* .footer-logo{
   border: solid green 2px;
 } */
